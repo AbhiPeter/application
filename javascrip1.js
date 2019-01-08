@@ -1,12 +1,8 @@
-//document.addEventListener("DOMContentLoaded", function(event) {
-
 var ulElement = document.querySelector(".list-group");
 
 var liList = document.querySelectorAll(".list-group-items");
 var spanStudent = document.querySelectorAll(".technology");
 var spanDelete = document.querySelectorAll(".remove")
-console.log(liList);
-console.log(spanStudent);
 
 ulElement.addEventListener("click", function(event) {
     if (event.target.className == "remove") {
@@ -23,7 +19,6 @@ liList.forEach(function(element, index, nodeList) {
     })
 })
 
-//adding the list in your search box is given here
 function addItem() {
     event.preventDefault();
 
@@ -47,4 +42,3 @@ function addItem() {
 }
 
 
-//})
