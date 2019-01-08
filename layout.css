@@ -1,0 +1,47 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(whitesmoke, black)
+}
+
+.content {
+    margin-top: 0;
+    background: linear-gradient(yellow, greenyellow);
+    text-align: center;
+    height: 120px;
+    color: blueviolet
+}
+
+.list-group {
+    background-color: whitesmoke;
+    list-style-type: none;
+    padding: 2px;
+    margin: 5px;
+    border: 10px solid black;
+}
+
+ul li {
+    color: red;
+    background-color: whitesmoke;
+    padding: 2px 4px;
+    margin: 20px 20px;
+    text-align: center;
+}
+
+.technology {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.remove {
+    background-color: palevioletred;
+    color: white;
+    border: 2px palevioletred solid;
+    cursor: pointer;
+    padding: 2px 12px 3px 12px;
+    text-decoration: none;
+    margin-left: 80px;
+    width: 100px;
+}
